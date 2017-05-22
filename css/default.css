@@ -15,7 +15,6 @@ header{
   left: 0;
   top: 0;
   width: 100%;
-  height: 20%;
   z-index: +1;
 }
 #main{
@@ -27,6 +26,7 @@ header{
 #main1{
   background-color: green;
   width: 500px;
+  height: 80px;
 }
 #main2{
   background-color: yellow;
