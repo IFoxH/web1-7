@@ -7,9 +7,14 @@
 
 body{
   background-color: gray;
+  margin: 48px 0 0 0;
 }
 header{
   background-color: orange;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 #main{
   background-color: white;
@@ -30,8 +35,26 @@ aside{
   background-color: blue;
   width: 200px;
   float: right;
+  position: relative;
+  top: 20px;
+  right: 10px;
 }
 footer{
   background-color: purple;
   clear: both;
+}
+.box{
+  background-color: red;
+  color: black;
+  width: 240px;
+  height: 80px;
+  margin: 5px;
+  float: left;
+  overflow: auto;
+}
+#good_picture{
+  width: 25px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
